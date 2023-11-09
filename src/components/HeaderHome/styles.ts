@@ -3,19 +3,20 @@ import imageBG from '../../assets/header-background.png'
 
 export const Container = styled.div`
   background-image: url(${imageBG});
-  position: absolute;
+  /* position: absolute;
   left: 0;
-  height: 34rem;
-  width: 100vw;
+  width: 100vw;*/
   display: flex;
   align-items: center;
-  justify-content: center;
+  height: 34rem;
 `
 
 export const ContentContainer = styled.div`
   display: flex;
   flex: 1;
   justify-content: center;
+  /* width: 90rem;
+  padding: 0 10rem; */
 `
 export const InfoContainer = styled.div`
   display: flex;
